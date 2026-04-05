@@ -1,4 +1,9 @@
-# Slide off right Joy‑Con 👇🧩
+> [!NOTE]
+> This repo is for **my personal notes** and is **Artix‑Linux‑focused** (`pacman`).  
+> I may rephrase things for Debian, but I’m not aiming to support every distro;  
+> if you want, you can adapt the commands yourself.  
+> Do **not** redistribute Nintendo’s copyrighted software.  
+> Use at your own risk.# Slide off right Joy‑Con 👇🧩
 
 ## Slide off right Joy‑Con 👇🧩
 
