@@ -1,0 +1,24 @@
+# Ignore personal / private stuff
+.id_ed25519
+id_ed25519.*
+.id_rsa
+id_rsa.*
+
+# Ignore system / editor stuff
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.cache/
+.history/
+.temp/
+
+# Ignore Obsidian metadata so it doesn't leak your vault layout
+.obsidian/workspace.json
+.obsidian/cache/
+.obsidian/plugins/
+
+# Ignore any local config files
+local-config/
+config.local
+secrets.*
