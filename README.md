@@ -1,30 +1,36 @@
-My Switch Atmosphere Setup Notes - pix3lhustler_
+# Slide off right Joy‑Con 👇🧩
 
-VERIFY FIRST:
-- Hold both Volume + Power = AMS/fusee screen (good)
-- Normal boot = no "Maintenance mode" (good) 
+## Slide off right Joy‑Con 👇🧩
 
-LINUX SETUP:
-$ sudo pacman -S python-pyusb libusb hekate-switch
-$ lsusb | grep 0955  # RCM mode check
+- Slide the **right Joy‑Con off** while it’s attached to the **red sliding jig attachment**. 🟩➡️➡️🚫  
+- After you remove the jig from the **power injector**, slide it **all the way down** so it’s fully seated on the rail. 🛠️⬇️✅  
 
-DAY 1 - BACKUP EVERYTHING:
-1. Hekate bin from GitHub → SD root  
-2. Hekate → Tools → Backup eMMC BOOT0/BOOT1 (raw)
-3. Hekate → Backup → eMMC BOOT (raw) 
-   ↑ This = brick-proof forever
+## Power injector + boot sequence 🔌⚡
 
-HOMEbrew (LEGAL):
-- Tinfoil → RetroArch, Goldleaf only
-- Skip NSP/CIA for now
+- With the **power injector plugged into a USB‑C port**:  
+  - Hold **Power** and **Volume Down** at the same time. 🔋➖  
+- Keep holding both until the **blue Atmosphere screen** appears. 🌌💙  
+- If the **Nintendo logo appears instead**, just **restart** and repeat from step 3. 🔁  
+- Make sure the **blue light on the power injector** is lit under the USB‑C hole. 💡🔵  
 
-LINUX TOOLS:
-$ sudo pacman -S godmode9 hacdiskmount
-$ sudo mount /dev/sdX1 /mnt/switch
+## Slide jig off, reattach, and Joy‑Con on 🔁🧤
 
-DANGER:
-- No RCM Loader apps from sketchy sites
-- No "free games" NSPs  
-- No firmware update without NAND backup
+- While *still holding Power + Volume Down*, **slide the red slider jig off** the console. 🟥➖♻️  
+- Reattach the jig to the **power injector**, then put the **power injector away** (unplug it from the Switch). 🧩🔌  
+- Slide the **Joy‑Con back on** to the console. 🎮➡️📺  
 
-Next: NAND backup → homebrew → Python GPIO scripts
+## Keep it safe & stable 🚫🌐🔋
+
+- Keep **Airplane Mode ON** for now and **do NOT go online** until you’ve done more testing. ✈️🚫📶  
+- Leave the Switch in **Sleep Mode** when not using it to avoid redoing this every time. 🌙💤  
+- Try not to let the **battery die completely** while you’re messing with this setup. 📉🔋  
+
+## Awoo / Installer mode 🐺📁
+
+- To get into **Awoo Installer / homebrew mode**:  
+  - Hold the **R button** on the right Joy‑Con. 🎛️  
+  - While holding **R**, press the **A button**. 🅰️  
+- From there you can browse the SD card, install NSP/XCI files, and manage homebrew apps. 📂⬇️🚀  
+- To leave this mode, just press the **Home button** to return to the normal home screen. 🏡➡️🎮  
+
+💡 Tip: When you’re done, put the Switch back in Sleep Mode and **do NOT open the e‑Shop** or connect to the internet until you’re 100% sure your setup is patched and safe. 🛡️🔒
